@@ -1,12 +1,12 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 5;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
-static const unsigned int gappih    = 50;       /* horiz inner gap between windows */
-static const unsigned int gappiv    = 50;       /* vert inner gap between windows */
-static const unsigned int gappoh    = 200;       /* horiz outer gap between windows and screen edge */
-static const unsigned int gappov    = 200;       /* vert outer gap between windows and screen edge */
+static const unsigned int gappih    = 25;       /* horiz inner gap between windows */
+static const unsigned int gappiv    = 25;       /* vert inner gap between windows */
+static const unsigned int gappoh    = 100;       /* horiz outer gap between windows and screen edge */
+static const unsigned int gappov    = 100;       /* vert outer gap between windows and screen edge */
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -97,7 +97,7 @@ static const Key keys[] = {
 	{ MODKEY|Mod1Mask,		XK_x,	   togglegaps,	   {0} },
 	{ MODKEY|Mod1Mask|ShiftMask,	XK_x,	   defaultgaps,    {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
-	{ MODKEY|ShiftMask,             XK_q,      killclient,     {0} },
+	{ MODKEY,	                XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
