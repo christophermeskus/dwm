@@ -12,11 +12,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "terminus:size=12", "fontawesome:size=12" };
 static const char dmenufont[]       = "terminus:size=12";
-static const char col_gray1[]       = "#38435a";
-static const char col_gray2[]       = "#38435a";
-static const char col_gray3[]       = "#d8c7b7";
-static const char col_gray4[]       = "#d8c7b7";
-static const char col_cyan[]        = "#5274a3";
+static const char col_gray1[]       = "#222222";
+static const char col_gray2[]       = "#444444";
+static const char col_gray3[]       = "#bbbbbb";
+static const char col_gray4[]       = "#eeeeee";
+static const char col_cyan[]        = "#005577";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
