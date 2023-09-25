@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 3;        /* border pixel of windows */
+static const unsigned int borderpx  = 5;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappih    = 10;       /* horiz inner gap between windows */
 static const unsigned int gappiv    = 10;       /* vert inner gap between windows */
@@ -10,13 +10,18 @@ static const unsigned int gappov    = 25;       /* vert outer gap between window
 static       int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "terminus:size=12", "fontawesome:size=12" };
-static const char dmenufont[]       = "terminus:size=12";
-static const char col_gray1[]       = "#38435a";
-static const char col_gray2[]       = "#38435a";
+static const char *fonts[]          = { "terminus:size=14", "fontawesome:size=14" };
+static const char dmenufont[]       = "terminus:size=14";
+//background color
+static const char col_gray1[]       = "#2f2f39";
+//inactive window border color
+static const char col_gray2[]       = "#5274a3";
+//font color
 static const char col_gray3[]       = "#d8c7b7";
-static const char col_gray4[]       = "#d8c7b7";
-static const char col_cyan[]        = "#5274a3";
+//current tag and current window font color
+static const char col_gray4[]       = "#2f2f39";
+//top bar second color (blue) and active window border color
+static const char col_cyan[]        = "#9dbde5";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
