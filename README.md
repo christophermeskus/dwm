@@ -5,5 +5,7 @@ This is my custom build of the dynamic window manager, with a few patches instal
 # Patches
 
 - Vanitygaps
+- Attachbottom
+- Accessnthmonitor
 
 
