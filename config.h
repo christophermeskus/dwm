@@ -6,6 +6,10 @@ static const unsigned int gappx     = 25;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 0;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const int usealtbar	    = 1; 
+static const char *altbarclass	    = "Polybar";
+static const char *alttrayname      = "tray";
+static const char *altbarcmd        = "$HOME/bar.sh";
 static const char *fonts[]          = {"Terminus:size=12" };
 static const char dmenufont[]       = "Terminus:size=12";
 static const char col_gray1[]       = "#222222";
